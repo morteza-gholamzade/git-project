@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/styles.css" />
+    <link rel="stylesheet" href="./dist/bootstrap-icons.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="md:grid md:grid-cols-6 md:mt-28 md:mb-12">
+    <header class="border-b-2 border-slate-100 md:hidden">
+      <nav
+        class="flex place-content-between border-b-2 border-slate-100 p-2 m-4"
+      >
+        <div class="text-slate-600 text-lg"><i class="bi bi-list"></i></div>
+        <div class="text-slate-600 text-lg">
+          <i class="bi bi-question-square"></i>
+        </div>
+      </nav>
+
+      <div class="flex p-2 place-content-between">
+        <div
+          class="flex gap-3 text-gray-400 bg-gray-200 p-2 pl-16 place-items-center rounded-lg"
+        >
+          <div><i class="bi bi-search"></i></div>
+          <p class="text-xs">جستجو در فروشگاه</p>
+        </div>
+        <div class="flex gap-2 place-items-center">
+          <div class="flex gap-1 border-l-2 border-slate-100 p-1">
+            <i class="bi bi-box-arrow-in-left"></i>
+            <p class="text-xs">ورود</p>
+          </div>
+
+          <div class="p-0.5">
+            <i class="bi bi-cart2 relative">
+              <span
+                class="bg-rose-500 h-4 w-4 border-white border rounded absolute -bottom-2 -right-1.5"
+              >
+                <p class="text-white text-center text-xs">0</p>
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="border-b-2 mt-6 border-slate-100 md:mt-10 md:border-0 ">
+      <div class="flex place-content-around place-items-center md:grid md:grid-rows-4		">
+        <div
+          class="flex-col flex items-center border-x-2 border-t-2 p-3 rounded-t-lg drop-shadow-3xl md:h-36 md:w-36 md:justify-center md:border-b-2 md:rounded-lg"
+        >
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26.346"
+              height="24.593"
+              viewBox="7.236 -2.011 26.346 24.593"
+            >
+              <g data-name="cart(1)">
+                <path
+                  d="M15.58 18.19a2.196 2.196 0 1 1-.002 4.393 2.196 2.196 0 0 1 .002-4.393Zm13.174 0a2.196 2.196 0 1 1-.002 4.393 2.196 2.196 0 0 1 .002-4.393Z"
+                  fill="#ef4056"
+                  fill-rule="evenodd"
+                  data-name="Path 1"
+                />
+                <path
+                  d="M33.407 2.792c-.203-.324-.556-.558-.935-.558L13.97 1.385l-.645-2.516a1.16 1.16 0 0 0-1.14-.88h-3.78c-.642 0-1.169.527-1.169 1.172 0 .643.527 1.17 1.17 1.17h2.87l3.221 12.531-.79 3.278c-.09.353 0 .732.203.996.234.292.556.44.909.44h14.344c.645 0 1.172-.527 1.172-1.173 0-.643-.527-1.17-1.172-1.17H16.342l.321-1.346 11.71-.556c.44-.031.819-.295.995-.674l4.1-8.782c.174-.324.145-.732-.06-1.083Z"
+                  fill="#ef4056"
+                  fill-rule="evenodd"
+                  data-name="Path 2"
+                />
+              </g>
+            </svg>
+          </div>
+          <p class="text-xs text-rose-500">سبد خرید(21)</p>
+        </div>
+
+
+
+        <div class="flex-col flex items-center gap-1 self-end p-3 md:border-2 md:rounded-lg md:w-32 md:h-32 md:justify-center">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="39.329"
+              height="16.911"
+              viewBox="1448.994 458.512 39.329 16.911"
+            >
+              <g data-name="Group 8">
+                <path
+                  d="M1466.06 469.17c.889.022 1.777.015 2.665-.002.214-.004.425-.1.639-.156-.065-.235-.077-.504-.202-.698-.715-1.11-1.702-1.904-2.9-2.456-.213-.099-.473-.35-.502-.56-.192-1.411-.326-2.83-.475-4.246-.012-.11.02-.224.036-.418.365 0 .71-.02 1.054.005.516.036.581-.221.495-.653-.161-.81-.752-1.179-1.434-1.474h-13.067c-1.234.545-1.596 1.051-1.447 2.122.636 0 1.286-.029 1.93.02.17.011.46.258.463.4.024 1.964.007 3.925-.002 5.889 0 .04-.041.082-.077.142-.074.016-.166.064-.252.055-1.974-.228-2.931.987-3.64 2.559-.112.252-.232.504-.35.754v.842l.759.54c1.226-2.18 2.523-2.971 4.213-2.628 1.695.346 2.677 1.582 2.945 3.788 1.174 0 2.36.012 3.546-.005.905-.012 1.98.238 2.667-.165.658-.387.913-1.462 1.342-2.235.125-.224.26-.444.368-.677.242-.526.643-.757 1.227-.742Zm-1.942-2.275-2.191-2.074c.208-.236.444-.401.523-.62.08-.22.1-.597-.029-.725-.137-.134-.593-.172-.72-.052a26.529 26.529 0 0 0-1.971 2.086c-.11.13-.089.562.029.655.17.137.528.187.73.101.23-.1.379-.394.6-.646.768.718 1.486 1.373 2.18 2.058.093.093.13.35.072.475-.399.869-.817 1.733-1.26 2.578-.078.147-.31.298-.476.303-.953.029-1.909.014-2.98.014 0-.883.005-1.714 0-2.545-.004-1.051-.297-1.346-1.332-1.351-.816-.005-1.635 0-2.53 0v-6.463c.204-.02.403-.053.602-.053 2.62-.004 5.239.005 7.858-.01.43-.002.636.114.677.572.132 1.443.317 2.88.432 4.324.031.384-.118.787-.214 1.373Zm3.148 3.073a2.702 2.702 0 0 0-2.684 2.753c.014 1.527 1.214 2.713 2.734 2.699a2.699 2.699 0 0 0 2.689-2.747c-.014-1.51-1.246-2.724-2.74-2.705Zm-.005 3.606c-.492-.015-.893-.43-.848-.92.048-.509.341-.806.867-.82a.847.847 0 0 1 .886.873.887.887 0 0 1-.905.867Zm-13.941-3.606c-1.484-.017-2.732 1.215-2.744 2.71a2.727 2.727 0 0 0 2.706 2.744c1.514.015 2.72-1.18 2.727-2.705a2.708 2.708 0 0 0-2.689-2.75Zm.014 3.606c-.48.017-.948-.392-.92-.862.03-.492.28-.845.822-.879.574-.036.879.29.955.816.07.457-.379.908-.857.925Z"
+                  fill="#707070"
+                  fill-rule="evenodd"
+                  data-name="golf-cart(1)"
+                />
+                <path
+                  d="M1488.32 461.453c-.001-.843-.475-1.268-1.312-1.246-.284.007-.346.119-.34.37.012.427.02.855-.003 1.28-.034.69-.443 1.12-1.126 1.174a7.315 7.315 0 0 1-1.089.002c-.734-.051-1.145-.496-1.162-1.233-.008-.41-.013-.822.002-1.233.01-.263-.08-.358-.35-.356-1.265.012-2.53.012-3.792 0-.288-.004-.344.12-.335.368.013.426.012.854.001 1.28-.015.645-.387 1.082-1.026 1.155-.39.046-.79.042-1.183.019-.72-.043-1.12-.469-1.145-1.192a19.007 19.007 0 0 1 0-1.28c.01-.27-.095-.347-.359-.352-.86-.019-1.317.413-1.317 1.292v12.614c0 .906.39 1.303 1.295 1.305 3.984.003 7.966.003 11.95 0 .911 0 1.291-.389 1.291-1.304.004-2.101 0-4.205 0-6.307.002-2.12.005-4.239 0-6.356Zm-12.88 2.99c-.002-.22.093-.308.312-.308.93.005 1.86.005 2.789.002.2 0 .277.083.275.284-.007.756-.008 1.513.002 2.27.003.25-.132.278-.328.276-.457-.005-.913-.001-1.371-.001-.457 0-.915-.007-1.372.003-.221.005-.31-.08-.31-.303.01-.742.008-1.482.003-2.223Zm3.38 8.978c.003.242-.077.338-.323.335a143.01 143.01 0 0 0-2.694 0c-.262.003-.369-.088-.365-.355.01-.725.008-1.449.002-2.174-.002-.222.086-.31.307-.305.457.01.913.004 1.372.004.456 0 .914.008 1.37-.004.24-.007.336.075.332.325-.013.725-.012 1.45-.001 2.174Zm-.383-3.052c-.44-.018-.884-.005-1.327-.005-.426 0-.854-.013-1.28.005-.277.012-.4-.064-.394-.367.015-.71.014-1.422.002-2.133-.005-.274.106-.35.365-.347.884.012 1.77.017 2.655-.002.307-.007.368.119.363.39-.013.696-.018 1.392.002 2.087.007.301-.105.384-.386.372Zm1.255-6.232c.901.005 1.802.007 2.704-.002.243-.002.336.088.333.333-.01.727-.012 1.454 0 2.181.003.26-.112.323-.343.318-.459-.01-.917-.003-1.375-.003-.443 0-.886-.007-1.327.003-.224.005-.306-.08-.305-.304.009-.742.009-1.486 0-2.229-.003-.233.1-.299.313-.297Zm-.314 3.718c-.004-.24.072-.335.324-.331.9.011 1.8.01 2.7 0 .25-.004.33.093.327.333a93.574 93.574 0 0 0 0 2.18c.003.241-.08.337-.328.33-.458-.013-.915-.003-1.373-.003-.426 0-.852-.008-1.278.004-.247.008-.38-.044-.372-.333.015-.726.01-1.453 0-2.18Zm3.354 5.522c.007.291-.1.386-.385.382-.87-.013-1.739-.01-2.61-.001-.258.003-.368-.073-.361-.35.015-.712.015-1.422 0-2.134-.005-.27.091-.362.355-.352.441.015.884.005 1.327.005.426 0 .854.012 1.28-.005.278-.01.4.068.392.369-.016.695-.015 1.391.002 2.086Zm.551-8.905c-.003-.242.082-.34.328-.337.9.009 1.798.009 2.697 0 .254-.002.374.076.369.352-.012.725-.009 1.45-.002 2.176.002.223-.084.31-.308.304-.473-.008-.946-.003-1.418-.003-.426 0-.852-.012-1.277.005-.275.01-.397-.068-.389-.369.016-.708.01-1.418 0-2.128Zm3.39 8.98c.002.228-.106.302-.317.302-.93-.003-1.862-.003-2.792 0-.2 0-.28-.086-.279-.285.005-.758.007-1.514 0-2.271-.002-.252.145-.274.337-.272.456.003.914.001 1.37.001.457 0 .916.007 1.372-.001.222-.005.311.08.308.304-.005.739-.005 1.481.002 2.222Zm-.39-3.084c-.441-.017-.883-.005-1.324-.005-.457 0-.915-.009-1.371.001-.223.005-.308-.08-.305-.304.007-.74.01-1.481-.001-2.222-.004-.259.111-.318.343-.316.898.008 1.796.01 2.693-.002.268-.003.362.088.357.354-.012.708-.015 1.418.002 2.127.008.307-.122.377-.394.367Zm-9.083-7.912a1.125 1.125 0 0 0 1.046-1.09c.014-.3.002-.6.002-.9 0-.284.01-.568-.002-.852-.027-.602-.461-1.055-1.036-1.1a1.081 1.081 0 0 0-1.163.951 8.081 8.081 0 0 0-.002 2.03c.073.601.587.998 1.155.961Zm7.744.002c.615.024 1.112-.457 1.156-1.135.017-.267.004-.536.004-.805h-.002c0-.299.019-.601-.003-.9-.05-.648-.538-1.113-1.137-1.105-.6.009-1.082.485-1.105 1.135-.02.55-.019 1.105 0 1.657.02.656.48 1.13 1.087 1.153Z"
+                  fill="#707070"
+                  fill-rule="evenodd"
+                  data-name="ui-calendar"
+                />
+              </g>
+            </svg>
+          </div>
+          <p class="text-xs text-gray-600">زمان و نحوه ارسال</p>
+        </div>
+
+
+
+        <div class="flex-col flex self-end items-center gap-1 p-3 md:border-2 md:rounded-lg md:w-32 md:h-32 md:justify-center">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24.228"
+              height="16.367"
+              viewBox="0 -1 24.228 16.367"
+            >
+              <path
+                d="M24.228 1.005C24.228-.1 23.328-1 22.224-1H2.004C.9-1 0-.1 0 1.005v1.124h24.228V1.005ZM.003 5.499v7.86c0 1.108.897 2.008 2.005 2.008H22.22c1.107 0 2.007-.9 2.007-2.007V5.499H.003Zm7.437 7.008a.15.15 0 0 1-.15.15H2.978a.15.15 0 0 1-.15-.15v-1.404c0-.08.07-.15.15-.15H7.29c.08 0 .15.07.15.15v1.404Z"
+                fill="#707070"
+                fill-rule="evenodd"
+                data-name="credit-card"
+              />
+            </svg>
+          </div>
+          <p class="text-xs text-gray-600">پرداخت</p>
+        </div>
+
+
+        <div class="flex-col flex items-center self-end p-3 md:border-2 md:rounded-lg md:w-32 md:h-32 md:justify-center">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="21.895"
+              viewBox="16 -2 19 21.895"
+            >
+              <g data-name="Group 7">
+                <path
+                  d="M24.852 4.403c-2.354-.118-4.452-.129-6.436-.943-.932-.384-1.828-.896-1.732-2.038.11-1.4.914-2.46 2.137-3.154 1.013-.573 1.853-.11 2.603.562 1.604 1.447 2.443 3.368 3.428 5.573ZM21.022 3.4c.91.373 1.878.38 2.963.434-.456-1.014-.84-1.896-1.58-2.561-.344-.31-.732-.523-1.198-.26-.562.317-.932.808-.981 1.451-.043.523.366.758.796.936Zm10.995.085c-1.7.733-3.525.69-5.118.907-.892.1-1.244-.068-.875-.86.79-1.694 1.615-3.369 2.998-4.674.733-.69 1.608-1.166 2.61-.622 1.288.7 2.16 1.835 2.241 3.286.06 1.088-.932 1.565-1.856 1.963ZM30.114 2.5c-.035-.64-.42-1.142-.989-1.451-.44-.238-.828-.032-1.152.274-.608.576-.974 1.312-1.323 2.059-.163.352-.01.423.384.38.705-.096 1.508-.078 2.259-.401.412-.171.846-.381.821-.861Z"
+                  fill="#dcdcdc"
+                  fill-rule="evenodd"
+                  data-name="gift-box"
+                />
+                <path
+                  d="M23 4.895h5a7 7 0 0 1 7 7v1a7 7 0 0 1-7 7h-5a7 7 0 0 1-7-7v-1a7 7 0 0 1 7-7z"
+                  fill="#dcdcdc"
+                  fill-rule="evenodd"
+                  data-name="Rectangle 3"
+                />
+              </g>
+            </svg>
+          </div>
+          <p class="text-xs text-gray-600 opacity-50">تحویل و پیگیری</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:col-span-3 md:border-2 md:rounded-lg" >
+      <article class="grid  grid-cols-3 mt-10 mx-3 gap-2 justify-items-start md:grid-cols-4">
+        <div class="place-self-center md:place-self-start		" ><img class="md:h-40 md:w-40" src="./dist/images/71e8dbf638d9d2d62228.jpeg" alt="" /></div>
+        <div class="space-y-4 col-span-2 row-span-3	 text-xs md:text-xl">
+          <p class="text-gray-900">
+            گوشی موبایل اپل مدل iPhone 13 Pro JA تک سیم‌ کارت ظرفیت 128 گیگابایت
+            و 6 گیگابایت رم - نات اکتیو
+          </p>
+          <p class="text-gray-600">شناسه کالا در انبار :A1652</p>
+          <p class="text-gray-600">رنگ : مشکی</p>
+          <p class="text-gray-600">کشور سازنده : آمریکا</p>
+          <p class="text-gray-700">43,900,000 تومان</p>
+        </div>
+
+        <div class="space-y-2 place-self-center md:flex md:flex-col md:justify-between md:h-60		">
+          <div
+            class="md:w-28 md:h-10 grid border-2 rounded-lg border-slate-200 items-center p-4 gap-4 w-20 h-9 grid-cols-3 justify-items-center content-center"
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="10"
+                height="17"
+                viewBox="685.757 409.385 10 17"
+              >
+                <image
+                  width="10"
+                  height="17"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAXCAYAAAAyet74AAAAAXNSR0IArs4c6QAAAEtJREFUOE9jZCASMBKpjmFUITik8vPz6xgZGbUmTJgQgRx0GMFDHYX5+fnBjIyMa7DF0v///+snTpzYRCOrka0k2jO4UtNo6sGbzwCypSAYFl7viwAAAABJRU5ErkJggg=="
+                  data-name="+"
+                  transform="translate(685.757 409.385)"
+                />
+              </svg>
+            </div>
+            <div class="text-xs text-gray-400 md:text-xl">5</div>
+            <div class="pb-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="8"
+                height="24"
+                viewBox="642.757 405.385 8 24"
+              >
+                <image
+                  width="8"
+                  height="24"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAeCAYAAAARgF8NAAAAAXNSR0IArs4c6QAAADFJREFUOE9jZCAAGEcVgENgJIVDfn5+MCMj4xr0qP///38IOBwIKsCXaEZSSA5wOAAA50kLX/3rkj4AAAAASUVORK5CYII="
+                  data-name="-"
+                  transform="translate(642.757 405.385)"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="w-20 h-9 flex items-center justify-center	gap-1 	 border-2 rounded-lg md:w-28 md:h-10">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12.097"
+                height="13.569"
+                viewBox="693.883 413 12.097 13.569"
+              >
+                <path
+                  d="M704.616 416.167c-1.562.007-3.124.004-4.686.004v-.001h-4.685c-.162 0-.314-.022-.273.236.23 1.461.45 2.924.676 4.386.221 1.443.477 2.882.653 4.33.09.757.73 1.46 1.6 1.447 1.347-.021 2.691-.001 4.038-.006.905-.005 1.485-.523 1.618-1.42.269-1.802.54-3.604.812-5.406.165-1.095.328-2.19.509-3.282.039-.247-.038-.288-.262-.288Zm-4.304 2.027c-.01 2.184-.002 4.367-.003 6.55h-.748l-.001-3.262h.003c0-1.118.006-2.236-.006-3.354 0-.034.002-.063.004-.09h.741c.007.045.01.098.01.156Zm-3.92-.156h.746a.976.976 0 0 1 .038.185c.191 1.544.412 3.084.627 4.626.088.632.187 1.262.264 1.895h-.756c-.203-1.462-.408-2.924-.61-4.387-.106-.764-.204-1.529-.307-2.294l-.003-.025Zm6.7 2.717c-.185 1.33-.385 2.657-.546 3.99h-.754c.308-2.194.601-4.388.901-6.58.005-.038.005-.083.01-.127h.772c-.009.055-.025.113-.032.16-.114.854-.232 1.706-.351 2.557Zm2.835-5.614c-.147-.348-.387-.635-.654-.897-.292-.285-.622-.447-1.05-.437-.826.02-1.65 0-2.476.007-.179.002-.277-.024-.332-.225-.116-.415-.376-.586-.805-.588-.461 0-.923-.002-1.384.002-.404.003-.67.191-.782.58-.052.185-.135.24-.327.237a93.966 93.966 0 0 0-2.473-.006c-.726.007-1.585.723-1.747 1.432-.048.218.028.344.24.384.106.019.215.02.322.02 1.817.002 3.634.002 5.45 0h2.473l2.504.002c.245 0 .492.006.735-.013.334-.025.433-.195.306-.498Z"
+                  fill="#ef4056"
+                  fill-rule="evenodd"
+                  data-name="trash"
+                />
+              </svg>
+            </div>
+            <p class="text-rose-500 text-xs">حذف</p>
+          </div>
+        </div>
+      </article>
+
+      <hr class="m-4">
+
+      <article class="grid  grid-cols-3 mt-10 mx-3 justify-items-start md:grid-cols-4">
+        <div class="place-self-center md:place-self-start	" ><img class="md:h-36 md:w-36" src="./dist/images/111282149.jpeg" alt="" /></div>
+        <div class="space-y-4 col-span-2 row-span-3	 text-xs  md:text-xl">
+          <p class="text-gray-900">
+            اتو بخار تاروس مدل گیسر اکو 3000
+
+          </p>
+          <p class="text-gray-600">شناسه کالا در انبار :A1652</p>
+          <p class="text-gray-600">رنگ : مشکی</p>
+          <p class="text-gray-600">کشور سازنده : آمریکا</p>
+          <p class="text-gray-700">79,900,000 تومان</p>
+        </div>
+
+        <div class="space-y-2 place-self-center md:flex md:flex-col md:justify-between md:h-60	">
+          <div
+            class="md:w-28 md:h-10 grid border-2 rounded-lg border-slate-200 items-center p-4 gap-4 w-20 h-9 grid-cols-3 justify-items-center content-center"
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="10"
+                height="17"
+                viewBox="685.757 409.385 10 17"
+              >
+                <image
+                  width="10"
+                  height="17"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAXCAYAAAAyet74AAAAAXNSR0IArs4c6QAAAEtJREFUOE9jZCASMBKpjmFUITik8vPz6xgZGbUmTJgQgRx0GMFDHYX5+fnBjIyMa7DF0v///+snTpzYRCOrka0k2jO4UtNo6sGbzwCypSAYFl7viwAAAABJRU5ErkJggg=="
+                  data-name="+"
+                  transform="translate(685.757 409.385)"
+                />
+              </svg>
+            </div>
+            <div class="text-xs text-gray-400 md:text-xl">3</div>
+            <div class="pb-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="8"
+                height="24"
+                viewBox="642.757 405.385 8 24"
+              >
+                <image
+                  width="8"
+                  height="24"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAeCAYAAAARgF8NAAAAAXNSR0IArs4c6QAAADFJREFUOE9jZCAAGEcVgENgJIVDfn5+MCMj4xr0qP///38IOBwIKsCXaEZSSA5wOAAA50kLX/3rkj4AAAAASUVORK5CYII="
+                  data-name="-"
+                  transform="translate(642.757 405.385)"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="md:w-28 md:h-10 w-20 h-9 flex items-center justify-center	gap-1 	 border-2 rounded-lg">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12.097"
+                height="13.569"
+                viewBox="693.883 413 12.097 13.569"
+              >
+                <path
+                  d="M704.616 416.167c-1.562.007-3.124.004-4.686.004v-.001h-4.685c-.162 0-.314-.022-.273.236.23 1.461.45 2.924.676 4.386.221 1.443.477 2.882.653 4.33.09.757.73 1.46 1.6 1.447 1.347-.021 2.691-.001 4.038-.006.905-.005 1.485-.523 1.618-1.42.269-1.802.54-3.604.812-5.406.165-1.095.328-2.19.509-3.282.039-.247-.038-.288-.262-.288Zm-4.304 2.027c-.01 2.184-.002 4.367-.003 6.55h-.748l-.001-3.262h.003c0-1.118.006-2.236-.006-3.354 0-.034.002-.063.004-.09h.741c.007.045.01.098.01.156Zm-3.92-.156h.746a.976.976 0 0 1 .038.185c.191 1.544.412 3.084.627 4.626.088.632.187 1.262.264 1.895h-.756c-.203-1.462-.408-2.924-.61-4.387-.106-.764-.204-1.529-.307-2.294l-.003-.025Zm6.7 2.717c-.185 1.33-.385 2.657-.546 3.99h-.754c.308-2.194.601-4.388.901-6.58.005-.038.005-.083.01-.127h.772c-.009.055-.025.113-.032.16-.114.854-.232 1.706-.351 2.557Zm2.835-5.614c-.147-.348-.387-.635-.654-.897-.292-.285-.622-.447-1.05-.437-.826.02-1.65 0-2.476.007-.179.002-.277-.024-.332-.225-.116-.415-.376-.586-.805-.588-.461 0-.923-.002-1.384.002-.404.003-.67.191-.782.58-.052.185-.135.24-.327.237a93.966 93.966 0 0 0-2.473-.006c-.726.007-1.585.723-1.747 1.432-.048.218.028.344.24.384.106.019.215.02.322.02 1.817.002 3.634.002 5.45 0h2.473l2.504.002c.245 0 .492.006.735-.013.334-.025.433-.195.306-.498Z"
+                  fill="#ef4056"
+                  fill-rule="evenodd"
+                  data-name="trash"
+                />
+              </svg>
+            </div>
+            <p class="text-rose-500 text-xs">حذف</p>
+          </div>
+        </div>
+      </article>
+
+
+
+      <hr class="m-4">
+
+      <article class="grid  grid-cols-3 mt-10 mx-3 justify-items-start md:grid-cols-4">
+        <div class="place-self-center md:place-self-start	" ><img class="md:h-36 md:w-36" src="./dist/images/a713da3a6fe230cbb5bd.jpeg" alt="" /></div>
+        <div class="space-y-4 col-span-2 row-span-3	 text-xs  md:text-xl">
+          <p class="text-gray-900">
+            اتو بخار تاروس مدل گیسر اکو 3000
+
+          </p>
+          <p class="text-gray-600">شناسه کالا در انبار :A1652</p>
+          <p class="text-gray-600">رنگ : مشکی</p>
+          <p class="text-gray-600">کشور سازنده : آمریکا</p>
+          <p class="text-gray-700">79,900,000 تومان</p>
+        </div>
+
+        <div class="space-y-2 place-self-center md:flex md:flex-col md:justify-between md:h-60	">
+          <div
+            class="md:w-28 md:h-10 grid border-2 rounded-lg border-slate-200 items-center p-4 gap-4 w-20 h-9 grid-cols-3 justify-items-center content-center"
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="10"
+                height="17"
+                viewBox="685.757 409.385 10 17"
+              >
+                <image
+                  width="10"
+                  height="17"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAXCAYAAAAyet74AAAAAXNSR0IArs4c6QAAAEtJREFUOE9jZCASMBKpjmFUITik8vPz6xgZGbUmTJgQgRx0GMFDHYX5+fnBjIyMa7DF0v///+snTpzYRCOrka0k2jO4UtNo6sGbzwCypSAYFl7viwAAAABJRU5ErkJggg=="
+                  data-name="+"
+                  transform="translate(685.757 409.385)"
+                />
+              </svg>
+            </div>
+            <div class="text-xs text-gray-400 md:text-xl">2</div>
+            <div class="pb-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="8"
+                height="24"
+                viewBox="642.757 405.385 8 24"
+              >
+                <image
+                  width="8"
+                  height="24"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAeCAYAAAARgF8NAAAAAXNSR0IArs4c6QAAADFJREFUOE9jZCAAGEcVgENgJIVDfn5+MCMj4xr0qP///38IOBwIKsCXaEZSSA5wOAAA50kLX/3rkj4AAAAASUVORK5CYII="
+                  data-name="-"
+                  transform="translate(642.757 405.385)"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="md:w-28 md:h-10 w-20 h-9 flex items-center justify-center	gap-1 	 border-2 rounded-lg">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12.097"
+                height="13.569"
+                viewBox="693.883 413 12.097 13.569"
+              >
+                <path
+                  d="M704.616 416.167c-1.562.007-3.124.004-4.686.004v-.001h-4.685c-.162 0-.314-.022-.273.236.23 1.461.45 2.924.676 4.386.221 1.443.477 2.882.653 4.33.09.757.73 1.46 1.6 1.447 1.347-.021 2.691-.001 4.038-.006.905-.005 1.485-.523 1.618-1.42.269-1.802.54-3.604.812-5.406.165-1.095.328-2.19.509-3.282.039-.247-.038-.288-.262-.288Zm-4.304 2.027c-.01 2.184-.002 4.367-.003 6.55h-.748l-.001-3.262h.003c0-1.118.006-2.236-.006-3.354 0-.034.002-.063.004-.09h.741c.007.045.01.098.01.156Zm-3.92-.156h.746a.976.976 0 0 1 .038.185c.191 1.544.412 3.084.627 4.626.088.632.187 1.262.264 1.895h-.756c-.203-1.462-.408-2.924-.61-4.387-.106-.764-.204-1.529-.307-2.294l-.003-.025Zm6.7 2.717c-.185 1.33-.385 2.657-.546 3.99h-.754c.308-2.194.601-4.388.901-6.58.005-.038.005-.083.01-.127h.772c-.009.055-.025.113-.032.16-.114.854-.232 1.706-.351 2.557Zm2.835-5.614c-.147-.348-.387-.635-.654-.897-.292-.285-.622-.447-1.05-.437-.826.02-1.65 0-2.476.007-.179.002-.277-.024-.332-.225-.116-.415-.376-.586-.805-.588-.461 0-.923-.002-1.384.002-.404.003-.67.191-.782.58-.052.185-.135.24-.327.237a93.966 93.966 0 0 0-2.473-.006c-.726.007-1.585.723-1.747 1.432-.048.218.028.344.24.384.106.019.215.02.322.02 1.817.002 3.634.002 5.45 0h2.473l2.504.002c.245 0 .492.006.735-.013.334-.025.433-.195.306-.498Z"
+                  fill="#ef4056"
+                  fill-rule="evenodd"
+                  data-name="trash"
+                />
+              </svg>
+            </div>
+            <p class="text-rose-500 text-xs">حذف</p>
+          </div>
+        </div>
+      </article>
+
+      <hr class="m-4">
+    </section>
+
+    <div class="hidden md:grid md:grid-cols-1 h-64 w-90 justify-items-center	mx-6">
+      <div class="w-90 border-2 border-slate-200 px-2 h-40  rounded-lg  py-2  ">
+        <div class="flex text-lg text-gray-400 justify-between p-2 border-b-2 border-slate-100 ">
+          <p>جمع قیمت کالاها(21)</p>
+          <p>12.650.000</p>
+        </div>
+        <div class="flex  text-lg text-gray-400 justify-between	p-2 border-b-2 border-slate-100">
+          <p>میزان تخفیف</p>
+          <p>650.000</p>
+        </div>
+        <div class="flex text-lg text-gray-700 font-bold justify-between	p-2	">
+          <p>جمع سبد خرید</p>
+          <p>12.000.000</p>
+        </div>
+      </div>
+      <div class="w-90 h-11	bg-rose-500 text-xs text-center py-3 text-white rounded-lg">ثبت سفارش </div>
+
+    </div>
+
+      <div class="flex justify-around items-center h-18 fixed bottom-0	right-0 z-10 left-0 bg-white shadow-3xl	md:hidden">
+        <div class="w-54 h-11	bg-rose-500 text-xs text-center py-3 text-white rounded-lg">ثبت سفارش </div>
+        <p>12.000.000 <span>ریال</span></p>
+      </div>
+    
+
+  
+  </div>
+  </body>
+</html>
