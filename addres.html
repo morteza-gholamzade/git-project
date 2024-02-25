@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/styles.css" />
     <link rel="stylesheet" href="./dist/bootstrap-icons.css" />
-    <title>Document</title>
+    <title>page2</title>
   </head>
   <body>
     <header>
@@ -22,12 +22,73 @@
 
         <section>
  
-            <div>
-                <form action="#">
-                    <label class="text-purple-500" for="addres">آدرس پستی : <span class="text-yellow-600	"> آدرس زیر بر اساس موقعیت انتخابی شما وارد شده است</span></label>
-                    <input type="text" name="addres">
+            <div class="m-4">
+                <form class=" gap-2 flex flex-col" action="#">
+                    <label class="text-xs" for="addres">آدرس پستی : <span class="text-violet-800	"> آدرس زیر بر اساس موقعیت انتخابی شما وارد شده است</span></label>
+                    <input class="text-xs pb-8 pr-2 border-2 rounded-lg border-gray-500 w-90 h-20" value="ب حقانی غرب، بعد از ب مدرس
+                    " type="text" name="addres">
+                    <a class="text-teal-400 flex gap-4 items-center	" href="#">
+                        <div class="text-xs">اصلاح موقعیت مکانی روی نقشه
+                        </div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="6.202" height="10.04" viewBox="1393.539 449.281 6.202 10.04"><path d="m1397.98 459.081-4.201-4.2a.819.819 0 0 1 0-1.158l4.2-4.202a.821.821 0 0 1 1.16 0l.362.361c.32.32.32.839 0 1.16l-2.681 2.682a.819.819 0 0 0 0 1.158l2.681 2.681c.32.32.32.839 0 1.16l-.362.361a.824.824 0 0 1-1.16-.003Z" fill="#1cbfd3" fill-rule="evenodd" data-name="rounded-down(1)"/></svg></div>
+                    </a>
+
+
+                    <label class="text-xs text-gray-700 p-2" for="country">کشور:</label>
+                    <select class=" text-xs p-2 m-auto text-gray-700 border-2 rounded-lg border-gray-500 w-90 h-10" name="country" id="country">
+                        <option value="ir">ایران</option>
+                        <option value="us">آمریکا</option>
+                        <option value="ca">کانادا</option>
+                    </select>
+
+
+                    <label class="text-xs text-gray-700 p-2" for="city">استان:</label>
+                    <select class="text-xs p-2 m-auto text-gray-700 border-2 rounded-lg border-gray-500 w-90 h-10" name="city" id="city">
+                        <option value="tr">تهران</option>
+                        <option value="se">سمنان</option>
+                        <option value="ha">همدان</option>
+                    </select>
+
+
+                    <label class="text-xs text-gray-700 p-2" for="cit">شهر:</label>
+                    <select class=" text-xs p-2 m-auto text-gray-700 border-2 rounded-lg border-gray-500 w-90 h-10" name="cit" id="cit">
+
+                        <option value="tr">تهران</option>
+                        <option value="fi">فیروزکوه</option>
+                        <option value="da">دماوند</option>
+                    </select>
+
+
+                    <label class="text-xs text-gray-700 p-2" for="city">محله:</label>
+                    <select class="text-xs p-2 m-auto text-gray-700 border-2 rounded-lg border-gray-500 w-90 h-10" placeholder="محله را انتخاب کنید" name="city" id="city">
+                        <option class="text-gray-300" value="tr">محله را انتخاب کنید</option>
+                        <option value="tr">تهران</option>
+                        <option value="se">سمنان</option>
+                        <option value="ha">همدان</option>
+                    </select>
+            
+
+                    <label class="text-xs p-2" for="plak">پلاک:</label>
+                    <input value="پلاک را بنویسید" class="text-xs text-slate-400 p-2 m-auto text-gray-700 border-2 rounded-lg border-gray-500 w-90 h-10" type="text" id="plak">
+ 
+                    <label class="text-xs p-2" for="vahed">واحد:</label>
+                    <input value="شماره واحد را بنویسید" class="text-xs text-slate-400 p-2 m-auto text-gray-700 border-2 rounded-lg border-gray-500 w-90 h-10" type="text" id="vahed">
+                
+                
+                
                 </form>
+
+               
             </div>
+            
         </section>
+        <hr class="my-6">
+
+        <button class="bg-rose-500 rounded-lg w-90 h-12 text-center  text-base text-white m-4 p-2 flex items-center justify-center gap-2" href="#">
+        
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="23.001" height="23.078" viewBox="127.467 6.961 23.001 23.078"><path d="M127.475 18.537c0-3.148-.002-6.295 0-9.441 0-1.567.501-2.054 2.1-2.059.718-.002 1.44.035 2.156-.011.565-.037.683.191.676.708-.028 1.71.012 3.42-.02 5.13-.012.578.154.76.745.758 3.9-.023 7.798-.026 11.698 0 .61.004.74-.213.73-.769a139.882 139.882 0 0 1-.003-4.72c.005-.352-.21-.916.173-1.022.522-.145 1.193-.3 1.664.136.981.903 1.904 1.87 2.855 2.802.256.25.217.559.217.863.002 5.781.007 11.563-.005 17.344-.002 1.158-.618 1.77-1.78 1.772-6.431.012-12.863.014-19.293.007-1.345-.002-1.92-.61-1.92-1.952-.002-3.183 0-6.363 0-9.546h.007Zm11.394 9.846v.013c2.495 0 4.99-.011 7.484.01.554.004.863-.04.857-.748a571.32 571.32 0 0 1-.01-9.945c.003-.595-.14-.84-.794-.835-4.955.023-9.912.023-14.867-.002-.653-.003-.8.23-.796.833.023 3.314.023 6.63 0 9.944-.005.575.15.753.743.746 2.46-.035 4.923-.016 7.383-.016Zm5.029-18.84c0 2.493 0 2.477-2.523 2.426-.542-.011-.805-.101-.782-.724.046-1.194.04-2.391.01-3.584-.012-.497.163-.619.643-.642 2.652-.118 2.652-.132 2.652 2.525Zm-5.029 10.63c-1.88 0-3.76-.013-5.638.01-.559.007-.9-.046-.859-.753.035-.583.067-.927.817-.92 3.896.039 7.792.044 11.685.014.674-.005.676.306.678.805.005.54-.016.882-.74.863-1.978-.053-3.963-.018-5.943-.018Zm.212 1.653c1.847 0 3.69.005 5.537-.002.53-.003.992-.079.967.75-.021.71-.213.925-.93.918a680.02 680.02 0 0 0-11.482-.014c-.653.005-.812-.189-.784-.807.025-.54.027-.88.747-.861 1.98.048 3.963.016 5.945.016Zm-.002 3.284c1.846 0 3.69.025 5.537-.014.666-.014.936.1.962.866.028.888-.439.791-1.011.791-3.725-.009-7.45-.004-11.174.012-.584.002-1.027.055-1.018-.808.007-.785.311-.872.964-.858 1.911.034 3.825.011 5.74.011Z" fill="#fff" fill-rule="evenodd" data-name="save"/></svg></span>
+            ثبت آدرس
+        </button>
+
   </body>
 </html>

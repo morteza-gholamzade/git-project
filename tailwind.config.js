@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html' , './addres.html'],
+  content: ['./*.html' ],
   theme: {
     extend: {
       dropShadow: {
@@ -20,7 +20,7 @@ module.exports = {
         '3xl': '0 -5px 15px rgba(0, 0, 0, 0.1)',
       }
 
-      
+
     }
     }, 
   
