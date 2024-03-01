@@ -24,9 +24,14 @@ module.exports = {
       boxShadow: {
         '3xl': '-10px -10px 15px rgba(0, 0, 0, 0.2)',
         '4xl': '5px 5px 15px rgba(0, 0, 0, 0.2)',
+        '5xl': '0px 6px 24px rgba(0, 0, 0, 0.32)',
+
       },
       translate: {
         '1/5': '-50%',
+      },
+      spacing: {
+        '2/5': '40%',
       }
 
 
